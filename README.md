@@ -1,4 +1,4 @@
-Quality control for Receiver Functions using Refined AlexNet, SAC files -->Pictures-->Classified
+Quality control for Receiver Functions using Refined AlexNet, SAC files -->Pictures-->Classify
 
 Wiggle_RF and Wiggle in the format of the matlab is to draw the sac files as wiggle pics
 
