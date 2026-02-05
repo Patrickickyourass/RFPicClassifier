@@ -1,13 +1,13 @@
 clc,clear
 
 % 读取SAC格式的地震波形数据文件
-% s = readsac('D:\RFDATASET\Test_Dataset\good\SC.ABCL.20220608.159.HHR.SACi');
+% s = readsac('D:\RFDATASET\Test_Dataset\good\SC.ABCL.20220608.159.HHR.SACi');%模板sac文件随便放一个测试看看
 % f=figure;
 % f.Position(4)=210;
 % 
 % wiggle(s.DATA1(1:500),'BR'),view(-90,90),axis("off")
 
-datafiles=dir('C:\Users\12535\Desktop\工作学习材料\毕业论文\3-判别结果以及由判别结果挑选的RF\T1_RF_MechinePick\KCD01\*.sac');
+datafiles=dir('C:\Users\...\Desktop\T1_RF_MechinePick\KCD01\*.sac');
 if ~exist('.\test')
     mkdir('.\test');
 end
@@ -28,4 +28,5 @@ for i=1:length(datafiles)
 
     close(fig)
     
+
 end
